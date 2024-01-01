@@ -1,0 +1,266 @@
+[
+  {
+    "id": "657bf81b1172845ff9a333ba",
+    "index": 0,
+    "themeName": "theme-1",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": false
+  },
+  {
+    "id": "657bf81becde5c643dd334c0",
+    "index": 1,
+    "themeName": "theme-1",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "<div class='CLR-PRIMARY'>인증번호가 요청되었습니다.</div>",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": false
+  },
+  {
+    "id": "657bf81bfe0806bb9ac5d69a",
+    "index": 2,
+    "themeName": "theme-1",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": true
+  },
+  {
+    "id": "657bf81bbc883641df775be8",
+    "index": 3,
+    "themeName": "theme-1",
+    "contentValue": "012345",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "인증이 완료되었습니다.",
+      "addContentTag": "",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": false
+  },
+  {
+    "id": "657bf81b80ffddf67cb80528",
+    "index": 4,
+    "themeName": "theme-1",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": false
+  },
+  {
+    "id": "657bf81b7800220c69c78a1a",
+    "index": 5,
+    "themeName": "theme-1",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "<div class='CLR-PRIMARY'>인증번호가 요청되었습니다.</div>",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": false
+  },
+  {
+    "id": "657bf81b8c4355b8792e7fc1",
+    "index": 6,
+    "themeName": "theme-1",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": true
+  },
+  {
+    "id": "657bf81b25df71fdd9df9ce6",
+    "index": 7,
+    "themeName": "theme-1",
+    "contentValue": "012345",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "인증이 완료되었습니다.",
+      "addContentTag": "",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": true,
+    "isError": false
+  },
+  {
+    "id": "657bf81b8166e0ac07bded1c",
+    "index": 8,
+    "themeName": "theme-2",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "addContentTag": "<div class='CLR-PRIMARY'>유효시간 00:00</div>"
+    },
+    "slotInputInMessage": false,
+    "isError": false
+  },
+  {
+    "id": "657bf81b12cac2e21b174496",
+    "index": 9,
+    "themeName": "theme-2",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "<div class='CLR-PRIMARY'>인증번호가 요청되었습니다.</div>",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": false,
+    "isError": false
+  },
+  {
+    "id": "657bf81b799495ada47cf6d6",
+    "index": 10,
+    "themeName": "theme-2",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "addContentTag": "<div class='CLR-PRIMARY'>유효시간 00:00</div>"
+    },
+    "slotInputInMessage": false,
+    "isError": true
+  },
+  {
+    "id": "657bf81bdc6208cd2eecfcf2",
+    "index": 11,
+    "themeName": "theme-2",
+    "contentValue": "012345",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": true,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "인증이 완료되었습니다.",
+      "addContentTag": "<div class='CLR-PRIMARY'>유효시간 00:00</div>",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": false,
+    "isError": false
+  },
+  {
+    "id": "657bf81b91d6ad8c660dd334",
+    "index": 12,
+    "themeName": "theme-2",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "addContentTag": "<div class='CLR-PRIMARY'>유효시간 00:00</div>"
+    },
+    "slotInputInMessage": false,
+    "isError": false
+  },
+  {
+    "id": "657bf81bdd7d6d330bc1d908",
+    "index": 13,
+    "themeName": "theme-2",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "",
+      "addContentTag": "<div class='CLR-PRIMARY'>인증번호가 요청되었습니다.</div>",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": false,
+    "isError": false
+  },
+  {
+    "id": "657bf81b35fb9254ebfad9f2",
+    "index": 14,
+    "themeName": "theme-2",
+    "contentValue": "",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "addContentTag": "<div class='CLR-PRIMARY'>유효시간 00:00</div>"
+    },
+    "slotInputInMessage": false,
+    "isError": true
+  },
+  {
+    "id": "657bf81ba1d912aa6b04354d",
+    "index": 15,
+    "themeName": "theme-2",
+    "contentValue": "012345",
+    "placeholder": "인증번호 6자리",
+    "isJustifyLabel": false,
+    "type": "number",
+    "label": "인증번호",
+    "supportMassage": {
+      "content": "인증이 완료되었습니다.",
+      "addContentTag": "<div class='CLR-PRIMARY'>유효시간 00:00</div>",
+      "addIconTagYN": false
+    },
+    "slotInputInMessage": false,
+    "isError": false
+  }
+]

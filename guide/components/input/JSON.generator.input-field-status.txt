@@ -1,0 +1,52 @@
+#https://json-generator.com/
+[
+  '{{repeat(40)}}',
+  {
+    id: '{{objectId()}}',
+    index: '{{index()}}',
+    themeName: function(_, index){
+      return index < 20 ? 'theme-1' :'theme-2'
+    },
+    "contentValue": function(_,index){
+      return (index >= 8 && index <= 11) || (index >= 28 && index <= 31) ? 'Disabled Value' : ''
+    },
+    "placeholder": "Placeholder text",
+    "isJustifyLabel": function(_,index){
+      return index < 4 || (index >= 20 && index < 24) ? false : true
+    },
+    "type": "text",
+    "label": "label",
+    "supportMassage": function(_, index){
+      const params = {
+      	"content": "supporting text",
+        "addContentTag": "",
+        "addIconTagYN" : false
+      }
+      return index % 4 === 2  ? {
+        ...params,
+        "addContentTag": "<span>123123</span>",
+      } : index % 4 === 3 ? {
+        ...params,
+        "addIconTagYN" : true
+      } : index % 4 === 0 ? {
+         ...params,
+        "content": "",
+      }: params
+    },
+    "slotUseLeftIcon" : function(_, index){
+      return index % 4 === 2 ? true:false
+    },
+    "slotInputInMessage": function(_,index){
+      return index % 4 === 3 ? true: false
+    },
+    "isDisabled": function(_, index){
+      return (index >= 8 && index <= 11) || (index >= 28 && index <= 31) ? true : false
+    },
+    "isError": function(_, index){
+      return (index >= 12 && index <= 15) || (index >= 32 && index <= 35) ? true : false
+    },
+    "isSuccess": function(_, index){
+      return (index >= 16 && index <= 19) || (index >= 36 && index <= 39) ? true : false
+    }
+  }
+]
